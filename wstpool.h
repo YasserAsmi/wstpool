@@ -1,3 +1,9 @@
+// Copyright (c) Yasser Asmi
+// Released under the MIT License (http://opensource.org/licenses/MIT)
+
+#ifndef _WSTPOOL_H
+#define _WSTPOOL_H
+
 #include <list>
 #include <deque>
 #include <future>
@@ -214,3 +220,5 @@ private:
 };
 
 } // wstpool namespace
+
+#endif // _WSTPOOL_H
